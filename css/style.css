@@ -1,0 +1,32 @@
+ body{
+ 	background: ;
+ }
+ .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .navbar-header{
+        width: 120%;
+        margin:auto;
+
+    }
+     li {
+        margin-right: 30px;
+    }
+    .navbar-brand{
+    	margin-right: 30px;
+    }
+    .logo{
+    	margin-right: 50px;
+    }
+    .jumbotron {
+        width: 200%;
+        
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+    color: white; 
+     
+      padding: 25px;
+    }
+    

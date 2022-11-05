@@ -1,0 +1,592 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thức uống</title>
+	<link rel="shortcut icon" href="images/logo.png">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ek+Mukta">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+  <style type="text/css">
+    @import url('<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">');
+    .card-text{
+     font-family: 'Dancing Script', cursive;
+
+   }
+   .container{
+     margin-top: 8%;}
+     .card{
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card img{
+      transition: all 1.5s ease;
+
+    }
+
+    .card:hover img{
+      transform: scale(1.5);
+    }
+    .card-body a:hover{
+      cursor: pointer;
+      background:blue;
+      border-radius: 15px;
+
+    }
+
+    h1{
+     color: green;
+     font-family: initial;
+     font-size: 60px;
+   }
+   hr {
+     border:none;
+     border-top:2px solid #7BB77C;
+     color:#7BB77C;
+     background-color:#fff;
+     height:2px;
+     width:90%;
+   }
+   .pagination :hover{
+    background: blue;
+    color: black;
+  }
+  .navbar{
+  margin-top: 5px;
+  background-color:#49c5c4;
+  border-style: outset;
+  border-size: 5px;
+}
+.navbar li a{
+  list-style: none;
+  width: 150px;
+  color: black !important ;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 5px;
+  text-align: center; }
+
+ #top_menu>li>a:hover{
+  text-decoration-line: none;
+  color: white  !important;
+  border-color: none;
+  border-style: solid;
+  height: 40px; 
+    }  
+
+    footer {
+      height: 280px;
+      color: black;
+      padding: 10px;
+      margin-top: 70px;
+      text-align: center;
+    }
+    .btn btn-primary:hover{
+     border-radius: 30px;
+     color: blue;
+   }
+   #header1{
+    top: 0;
+    height: 300px;
+    width: 1490px;
+    margin-bottom: 100px;
+  }
+
+
+</style>
+
+</head>
+<body>
+  <div class="container-fluid" >
+     <div class="header" id="header1"  style="background-image:url(images/bia2.png);background-repeat: no-repeat; 
+  background-size: 1530px;"> 
+               
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid">
+          <a href="AmthucDaNang.html" class="logo">
+            <img src="images/logo.png" style="width: 150px; height: 40px; margin-left: 90px;"> </a> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto" id="top_menu">
+                <li class="nav-item" >
+                  <a class="nav-link active" href="AmthucDaNang.html">TRANG CHỦ</a>
+                </li>
+                <li class="nav-item" ">
+                  <a class="nav-link" href="cuisineDN.html">GIỚI THIỆU</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="border-bottom-color: red !important; border-style: solid;border-color: white;height: 40px;">
+                    THỰC ĐƠN
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Amthuc.html">ẨM THỨC</a>
+                    <a class="dropdown-item" href="anvattrang1.html">ĂN VẶT</a>
+                    <a class="dropdown-item" href="thucuong.html">ThỨC UỐNG</a>
+                  </div>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="lienhe.html" style="width: 100px;"><i class="fa fa-phone"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="dangnhap.html" style="width: 100px;"><i class="fa fa-user"></i></a>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </nav>
+     </div>
+
+  <div class="container">
+
+   <h1  style=" background:#00FFFF">Coffee & Tea</h1><br>
+   <div class="row justify-content-center">
+    <div class="col-md-5">
+      <div class="card 1" style="width: 21rem;" >
+        <img src="https://toplistdanang.com/wp-content/uploads/seo_beginner_auto_post/2018/11/07/Art-House-Coffee-min.jpg"height="300px">
+      </div>
+    </div>
+    
+    <div class="col-md-7">
+     <h5>Ở Đà Nẵng cũng chảng thiếu quán cafe ,trà sữa ,hay các loại thức uống như Sài Gòn hay Hà Nội đâu !</h5><br>
+     <i style="font-size: 17px;font-weight: 300;">Có lẽ từ trước đến nay bạn chỉ thường để ý đến những quán cà phê sang chảnh ở Sài Gòn ,hay những quán có gout, có chất lượng ở Hà Nội mà quên mất rằng ở đầu cầu "Đà Nẵng"cũng là nơi có một loạt những tiệm cà phê đủ chuẩn "đẹp, chất, lạ".Thậm chí đồ ăn uống còn ngon cự kỳ không thua kém gì Hà thành hay Sài Gòn đâu. <br> <br>Và nếu như ban đầu lúng túng khi nhiều lần đến Đà Nẵng mà không biết ngồi đầu để thư giản ,tận huưởng wiew đẹp ,đồ uống ngon thì hãy ghi vào sổ những địa điểm này luôn nhé! </i>
+     
+
+
+   </div>
+ </div><br><br><br>
+ <h3 style="background:#00FFFF;border:solid;  ">Những quán trà sữa Đà Nẵng đông"Nghìn Nghịt" khách </h3><br><br>
+ <div class="row justify-content-center">
+  <div class="col-md-4">
+    <div class="card" style="width: 19rem;" >
+      <img src="https://www.bandodiadiem.com/wp-content/uploads/2018/02/Tra-Sua-Sharetea-CMT8-6.jpg" height="240px" title="trà sữa share">
+      <p class="card-text">
+        <div class="centerdiv" >
+         <i class="fa fa-star"style="color: yellow "></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+       </div>
+     </p>
+     <div class="card-body">
+       <div class="container mt-3">
+
+         <center>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" >Trà sữa Share Tea</button></center>
+          <div id="demo2" class="collapse" style="font-weight: 300;font-size: 16px">
+           <p>
+             Địa chỉ: <a href="https://www.google.com/maps/place/28+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+Th%E1%BA%A1ch+Thang,+Q.+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/@16.0786949,108.2215117,17z/data=!3m1!4b1!4m5!3m4!1s0x3142183b1004c439:0x3933d2c4877eb75!8m2!3d16.078677!4d108.223779">28 Bạch Đằng, quận Hải Châu, Đà Nẵng</a> <br>
+             Quán mở cửa: từ 8 a.m – 10.30 p.m <br>
+             Mức giá trung bình: 32 000 – 63 000 
+           </p>
+         </div>
+       </div>     
+
+     </div>
+   </div>
+ </div>
+
+ <div class="col-md-4">
+  <div class="card" style="width: 19rem;" >
+    <img src="https://monngondathanh.com/wp-content/uploads/2018/01/tra-tien-h%C6%B0%C6%A1ng.jpg" height="240px" title="Trà tiên hưởng">
+    <p class="card-text" >
+      <div class="centerdiv" >
+       <i class="fa fa-star"style="color: yellow "></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+     </div>
+   </p>
+   <div class="card-body">
+     <div class="container mt-3">
+
+       <center>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo" >Trà Tiên Hưởng </button></center>
+        <div id="demo" class="collapse" style="font-weight: 300;font-size: 16px">
+         <p>
+           Địa chỉ: 32 Lê Đình Dương – Quận Hải Châu, Đà Nẵng <br>
+           Giá trung bình: 25 000 – 50 000 <br>
+           Mở cửa: 7 a.m – 11 p.m
+         </p>
+       </div>
+     </div>     
+
+   </div>
+ </div>
+</div>
+<div class="col-md-4">
+  <div class="card" style="width: 19rem;" >
+    <img src="https://muabanraovat5s.com/wp-content/uploads/2019/01/58be32b80378759fd805bda9.jpg"  height="240px">
+    <p class="card-text">
+      <div class="centerdiv" >
+       <i class="fa fa-star"style="color: yellow "></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+     </div>
+   </p>
+   <div class="card-body">
+     <div class="container mt-3">
+
+       <center>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1" >Trà sữa hot and cold</button></center>
+        <div id="demo1" class="collapse" style="font-weight: 300;font-size: 16px">
+         <p>
+           Địa chỉ: <a href="https://www.google.com/maps/place/28+B%E1%BA%A1ch+%C4%90%E1%BA%B1ng,+Th%E1%BA%A1ch+Thang,+Q.+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/@16.0786949,108.2215117,17z/data=!3m1!4b1!4m5!3m4!1s0x3142183b1004c439:0x3933d2c4877eb75!8m2!3d16.078677!4d108.223779">28 Bạch Đằng, quận Hải Châu, Đà Nẵng</a> <br>
+           Quán mở cửa: từ 8 a.m – 10.30 p.m <br>
+           Mức giá trung bình: 32 000đ – 63 000đ
+         </p>
+       </div>
+     </div>     
+
+   </div>
+ </div>
+</div>
+
+</div><br><br>
+
+<div class="row justify-content-center">
+  <div class="col-md-4">
+    <div class="card" style="width: 19rem;" >
+      <img src="https://monngondathanh.com/wp-content/uploads/2018/01/uncle-da-nang.jpg" height="240px" title=" Trà sữa Uncle Tea">
+      <p class="card-text">
+        <div class="centerdiv" >
+         <i class="fa fa-star"style="color: yellow "></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+       </div>
+     </p>
+     <div class="card-body">
+       <div class="container mt-3">
+
+         <center>
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" >Trà sữa Taste Tea </button></center>
+          <div id="demo2" class="collapse" style="font-weight: 300;font-size: 16px">
+           <p>
+
+             Địa chỉ: <a href="https://www.google.com/maps/place/200+L%C3%AA+%C4%90%C3%ACnh+L%C3%BD,+H%C3%B2a+Thu%E1%BA%ADn+Nam,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/@16.0512618,108.2073098,17z/data=!3m1!4b1!4m5!3m4!1s0x314219b99f49a9f5:0x9c320caf735f036c!8m2!3d16.0512618!4d108.2094985" style="color: red">200 Lê Đình Lý, Quận Thanh Khê, Đà Nẵng</a> <br>
+             Mở cửa: 7 a.m – 10 p.m <br>
+             Giá từ 20 000 – 60 000
+           </p>
+         </div>
+       </div>     
+
+     </div>
+   </div>
+ </div>
+
+ <div class="col-md-4">
+  <div class="card" style="width: 19rem;" >
+    <img src="https://monngondathanh.com/wp-content/uploads/2018/01/royal-tea-da-nang.jpg" height="240px" title="Trà sữa Royal Tea">
+    <p class="card-text" >
+      <div class="centerdiv" >
+       <i class="fa fa-star"style="color: yellow "></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+     </div>
+   </p>
+   <div class="card-body">
+     <div class="container mt-3">
+
+       <center>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo" >Trà sữa Royal Tea </button></center>
+        <div id="demo" class="collapse" style="font-weight: 300;font-size: 16px">
+         <p>
+          Địa chỉ: <a href="https://www.google.com/maps/place/124+Y%C3%AAn+B%C3%A1i,+Ph%C6%B0%E1%BB%9Bc+Ninh,+H%E1%BA%A3i+Ch%C3%A2u,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/@16.0651263,108.2201029,17z/data=!3m1!4b1!4m5!3m4!1s0x314218332316ebf3:0x88a96c950b78aff5!8m2!3d16.0651263!4d108.2222916"><124 Yên Bái, Hải Châu, Đà Nẵng </a><br>
+            Thời gian mở cửa: Từ 7 a.m – 10 p.m <br>
+            Giá trung bình: 30 000 – 45 000
+          </p>
+        </div>
+      </div>     
+
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card" style="width: 19rem;" >
+    <img src="https://monngondathanh.com/wp-content/uploads/2018/01/tra-sua-nhat-ban.jpg"  height="240px">
+    <p class="card-text">
+      <div class="centerdiv" >
+       <i class="fa fa-star"style="color: yellow "></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+       <i class="fa fa-star"style="color: yellow"></i>
+     </div>
+   </p>
+   <div class="card-body">
+     <div class="container mt-3">
+
+       <center>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1" >Trà sữa Sagoki</button></center>
+        <div id="demo1" class="collapse" style="font-weight: 300;font-size: 16px">
+         <p>
+           Quán có địa chỉ :<a href="https://www.google.com/maps/place/87+Ho%C3%A0ng+Hoa+Th%C3%A1m,+T%C3%A2n+Ch%C3%ADnh,+Q.+Thanh+Kh%C3%AA,+%C4%90%C3%A0+N%E1%BA%B5ng+550000/@16.067689,108.2077293,17z/data=!3m1!4b1!4m5!3m4!1s0x3142184b0a2ce435:0x35948b3b28802e6a!8m2!3d16.067689!4d108.209918">tại 87 Hoàng Hoa Thám, quận Hải Châu, Đà Nẵng.</a> <br>
+           Mở cửa từ 8 a.m – 10 p.m <br>
+           Giá trung bình: 40 000 – 60 000
+         </p>
+       </div>
+     </div>     
+
+   </div>
+ </div>
+</div>
+
+</div><br><br>
+<h3 style="background: #00FFFF;border: solid;">Những quán cafe Đà Nẵng đẹp nhất ,ai ai cũng ngẩn ngơ khi bước vào</h3> <br>   
+<div class="row justify-content-center">
+  <div class="col-md-4">
+    <div class="card" style="width: 19rem;" >
+      <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/nha-bay-cafe1-min.jpg" height="240px" title=" Nhà Bây Cafe">
+      <p class="card-text">
+        <div class="centerdiv" >
+         <i class="fa fa-star"style="color: yellow "></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+       </div>
+     </p>
+     <div class="card-body">
+      <center>
+        <input type="button" name="botton" value="Nhà Bây Cafe" onclick="button() " class="btn btn-primary
+        " ></center>
+        <script type="text/javascript" >
+          function button() {
+            alert ("Nếu bạn đang cần tìm một quán cafe vừa có thể nhâm nhi một li nước và chơi game cùng với đồng bọn thì Nhà Bây Cafe là một lựa chọn tuyệt vời cho bạn. Nhận thấy nhu cầu tìm những không gian để chiến đấu cùng các “chiến hữu” của những game thủ, Nhà Bây Cafe đem đến cho bạn những dịch vụ tốt nhất                                                           Địa chỉ :73 Lý Tự Trọng ,phường Thạch Thang ,Quận Hải Châu Tp Đà Nẵng");
+
+          }</script>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 19rem;" >
+       <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/quan-cafe-da-nang-7.jpg" height="240px" title=" Mây Cafe">
+       <p class="card-text">
+        <div class="centerdiv" >
+         <i class="fa fa-star"style="color: yellow "></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+         <i class="fa fa-star"style="color: yellow"></i>
+       </div>
+     </p>
+     <div class="card-body">
+      <center>
+        <input type="button" name="botton" value="Mây Cafe" onclick="button1() " class="btn btn-primary
+        " ></center>
+        <script type="text/javascript" >
+          function button1() {
+            alert (" Mây Coffee nằm ngay bên bờ sông Hàn trên trục đường Lê Duẩn. Sở hữu cho mình không gian 5 tầng thoáng mát, đẹp, trầm tĩnh, tầng nào cũng có thể nhìn ra phố phường. Đặc biệt, với cái nhìn hướng ra bờ sông Hàn, đây là địa điểm tuyệt vời để thưởng thức phong cảnh kết hợp với nhâm nhi tách cafe nóng hổi, thì đâu còn gì bằng. /                                Địa chỉ: 1B Lê Duẩn, Quận Hải Châu, Đà Nẵng.  ");
+
+          }</script>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card" style="width: 19rem;" >
+        <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/quan-cafe-da-nang-9.png" height="240px" title=" Wonderlust Cafe ">
+        <p class="card-text">
+          <div class="centerdiv" >
+           <i class="fa fa-star"style="color: yellow "></i>
+           <i class="fa fa-star"style="color: yellow"></i>
+           <i class="fa fa-star"style="color: yellow"></i>
+           <i class="fa fa-star"style="color: yellow"></i>
+           <i class="fa fa-star"style="color: yellow"></i>
+         </div>
+       </p>
+       <div class="card-body">
+        <center>
+          <input type="button" name="botton" value="Wonderlust Cafe " onclick="button1() " class="btn btn-primary
+          " ></center>
+          <script type="text/javascript" >
+            function button1() {
+              alert ("Wonderlust Cafe là một tổ hợp nhỏ tại Đà Nẵng, bao gồm phục vụ cà phê lẫn shop quần áo trong khu vực. Tổ hợp này giúp cho khách đến quán tha hồ dạo chơi mua sắm mà không thiếu chỗ nghỉ chân. Với thiết kế không gian mở, mái vòm kính trong suốt, có tông màu trắng làm chủ đạo tạo nên bầu không khí hiện đại, trẻ trung./Địa chỉ: 30 Bạch Đằng, Quận Hải Châu, Đà Nẵng.");
+
+            }</script>
+
+          </div>
+        </div>
+      </div>
+
+    </div><br><br>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="card" style="width: 19rem;" >
+          <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/quan-cafe-da-nang-10.jpg" height="240px" title=" Han Coffee Original ">
+          <p class="card-text">
+            <div class="centerdiv" >
+             <i class="fa fa-star"style="color: yellow "></i>
+             <i class="fa fa-star"style="color: yellow"></i>
+             <i class="fa fa-star"style="color: yellow"></i>
+             <i class="fa fa-star"style="color: yellow"></i>
+             <i class="fa fa-star"style="color: yellow"></i>
+           </div>
+         </p>
+         <div class="card-body">
+          <center>
+            <input type="button" name="botton" value="Han Coffee Original " onclick="button() " class="btn btn-primary
+            " ></center>
+            <script type="text/javascript" >
+              function button() {
+                alert ("Han Coffee Original là điểm dừng chân lí tưởng cho hành trình du lịch ở Đà Nẵng tuyệt vời. Điều gì thú vị làm nên điểm nhấn của Đà Nẵng với Han Coffee ? Giữ một vị trí đắc địa, sát ngay cầu Rồng, đối diện cầu tình yêu, bạn có thể đắm mình chiêm ngưỡng nét đẹp của dòng sông Hàn cũng như nét nhộn nhịp của thành phố. Lấy tone nâu vàng làm chủ đạo, Han Coffee gây không ít ấn tượng bởi sự độc lạ trong cách phối màu./Địa chỉ: 517 Trần Hưng Đạo, Quận Sơn Trà, Đà Nẵng.");
+
+              }</script>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 19rem;" >
+            <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/quan-cafe-da-nang-15-1068x712.jpg" height="240px" title=" The Cup Coffee ">
+            <p class="card-text">
+              <div class="centerdiv" >
+               <i class="fa fa-star"style="color: yellow "></i>
+               <i class="fa fa-star"style="color: yellow"></i>
+               <i class="fa fa-star"style="color: yellow"></i>
+               <i class="fa fa-star"style="color: yellow"></i>
+               <i class="fa fa-star"style="color: yellow"></i>
+             </div>
+           </p>
+           <div class="card-body">
+            <center>
+              <input type="button" name="botton" value="the cups coffee" onclick="button1() " class="btn btn-primary
+              " ></center>
+              <script type="text/javascript" >
+                function button1() {
+                  alert ("The Cup Coffee là chuỗi cà phê đầu tiên mang thương hiệu người Đà Nẵng. Lấy cảm hứng từ cuộc sống hiện đại, quán mang đến khồng gian sang trọng đẳng cấp. Quán sử dụng thiết kế ánh sáng đến mức tối đa, với không gian mở tạo không khí thoáng đãng nhẹ nhàng. The Cup Coffee đặc biệt cho các cuộc hội họp, gặp mặt thân mật. Tại Cup, bạn sẽ thưởng thức những ly cà phê rang xay đúng vị, các thức uống hợp xu hướng. Menu của Cup không chỉ là cà phê mà còn còn là ice blended,  smoothies, tea,…Đây thực sự là điểm cà phê mà bạn không nên bỏ lỡ danh sách những điểm cần tới khi đến với thành phố Đà Nẵng./ 233 Nguyễn Văn Thoại, Quận Ngũ Hành Sơn, Đà Nẵng");
+
+                }</script>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="width: 19rem;" >
+              <img src="https://kinhnghiemdulichdn.com/wp-content/uploads/2019/11/quan-cafe-da-nang-13-1068x801.jpg" height="240px" title=" Quán Cafe Highland ">
+              <p class="card-text">
+                <div class="centerdiv" >
+                 <i class="fa fa-star"style="color: yellow "></i>
+                 <i class="fa fa-star"style="color: yellow"></i>
+                 <i class="fa fa-star"style="color: yellow"></i>
+                 <i class="fa fa-star"style="color: yellow"></i>
+                 <i class="fa fa-star"style="color: yellow"></i>
+               </div>
+             </p>
+             <div class="card-body">
+              <center>
+                <input type="button" name="botton" value="Quán Cafe Highland" onclick="button1() " class="btn btn-primary
+                " ></center>
+                <script type="text/javascript" >
+                  function button1() {
+                    alert ("Quán Cafe Highland Đà Nẵng nằm trong chuỗi hệ thống cà phê của Highland trải dài khắp đất nước. Với thương hiệu nổi tiếng, ghi dấu với con số ấn tượng 300 quán trên khắp cả nước cũng khẳng định được chất lượng cà phê. Quán lúc nào cũng đông đúc. Và nếu đi vào dịp cuối tuần thì rất khó kiếm được chỗ ngồi.");
+
+                  }</script>
+
+                </div>
+              </div>
+            </div>
+
+          </div><br><br>
+          <h3 style="background: #00FFFF;border: solid;">Một số hình ảnh </h3><br>
+          <div class="row justify-content-center">
+            <div class="col-md-2">
+              <div class="card" style="width: 11rem;" >
+                <img src="https://dulich9.com/wp-content/uploads/2019/02/kinh-nghiem-du-loch-da-nang-0.jpg" height="100px" title=" Han Coffee Original ">  
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="card" style="width: 11rem;" >
+                <img src="https://danangfantasticity.com/wp-content/uploads/2020/03/da-nang-khong-to-chuc-le-ky-niem-45-nam-ngay-giai-phong.jpg" height="100px" title=" cầu rồng đà nẵng ">
+                
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="card" style="width: 11rem;" >
+               <img src="https://cdn.pastaxi-manager.onepas.vn/content/uploads/articles/dungtv/anh-bai-blog/am-thuc-dan-gian-hue/Am-thuc-dan-gian-hue-1.jpg" height="100px" title=" ẩm thực đà nẵng ">
+
+             </div>
+           </div>
+           <div class="col-md-2">
+            <div class="card" style="width: 11rem;" >
+              <img src="https://www.kiotviet.vn/wp-content/uploads/2019/10/kinh-doanh-qu%C3%A1n-%C4%83n-v%E1%BA%B7t-nh%E1%BB%8F.jpg" height="100px" title=" quán ăn đà nẵng ">
+
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card" style="width: 11rem;" >
+             <img src="https://banhkhome.com/uploads/images/am-thuc-viet.jpg" height="100px" title=" cầu rồng đà nẵng ">
+
+           </div>
+         </div>
+         <div class="col-md-2">
+          <div class="card" style="width: 11rem;" >
+           <img src="https://static.salekit.vn/image/shop/2/blogs/do-uong.png" height="100px" title=" cầu rồng đà nẵng ">
+
+         </div>
+       </div>
+     </div><br><br>
+
+   </div>
+
+   <div class="container" style="margin-left:600px; margin-top: -30px; ">
+    <ul class="pagination" >
+      <li class="page-item "><a class="page-link" href="thucuong.html">Trước</a></li>
+      <li class="page-item"><a class="page-link" href="thucuong.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="thucuong1.html">2</a></li>
+
+      <li class="page-item"><a class="page-link" href="thucuong1.html">Sau</a></li>
+    </ul>
+  </div>
+<footer>
+  <div class="row" id="row3" style="margin-top:50px;">
+    <div class="col-4">
+      <p><img src="images/logo.png" style="width: 150px; height: 40px;"> <hr> &emsp; &emsp; <br> Cùng nhau khám phá ẩm thực ở Đà Nẵng &emsp; <br> <a href="AmthucDaNang.html">Read More</a></p>
+      <p>Categories: &emsp;<a href="Amthuc.html">Ẩm thực</a>  &emsp;<a href="thucuong.html">Thức uống</a>  &emsp;<a href="anvattrang1.html">Ăn vặt</a>  &emsp;<a href="#">Liên hệ</a>  &emsp;<a href=""></a>  </p>  </div>
+      <div class="col-4">
+        <h3>VỀ CHÚNG TÔI</h3> <hr>
+        <a href="cuisineDN.html" title="">Giới thiệu</a> <br>
+        <a href="lienhe.html" title="">Liên hệ</a> <br> 
+        <a href="banqyuenanh.html" title="">Bản quyền ảnh</a> <br>
+        <a href="dieukhoansudung" title="">Điều khoản sử dụng</a> <br>
+      </div>
+      <div class="col-4">
+        <h3>THAM GIA TRÊN</h3> <hr>
+        <a href="https://www.facebook.com/%E1%BA%A8m-th%E1%BB%B1c-%C4%90%C3%A0-N%E1%BA%B5ng-102201401536427/?modal=admin_todo_tour" target="blank"><i class="fa fa-facebook"></i></a> <br>
+        <a href="https://oa.zalo.me/manage/dashboard" title=""><i class="fa fa-instagram"></i></a> <br>
+        <a href="https://www.youtube.com/watch?v=S3KXx68WGgY" title=""><i class="fa fa-youtube"></i></a> <br>
+        <a href="https://oa.zalo.me/manage/dashboard" title="">Zalo</a> <br>
+        <b>Gmail :</b>  ntdmay.19it3@sict.udn.vn <br>
+        &emsp;  &emsp;  &emsp; ntnhut.19it3@sict.udn.vn <br>
+        <b>Phone :</b> 0858550468
+      </div>
+    </div>
+  </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+  </html>
